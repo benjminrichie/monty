@@ -1,17 +1,17 @@
 #include "monty.h"
 
 /**
- * f_rotr- This will rotate the stack to the bottom
+ * f_rotr- This func rotates the stack to the bottom
  *
- * @head: stack head
+ * @head: This is the head of the stack
  *
- * @counter: line_number
+ * @line_num: line number of instruction
  *
  * Return: void
  *
  */
 
-void f_rotr(stack_t **head, __attribute__((unused)) unsigned int counter)
+void f_rotr(stack_t **head, __attribute__((unused)) unsigned int line_num)
 {
 	stack_t *copy;
 

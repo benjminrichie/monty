@@ -8,8 +8,7 @@
  * @n: This is a new_value
  *
  * Return: Nothing
- *
-*/
+ */
 
 void addnode(stack_t **head, int n)
 {
