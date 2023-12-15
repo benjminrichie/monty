@@ -19,3 +19,21 @@ void free_stack(stack_t *head)
 		head = aux;
 	}
 }
+
+/**
+ * f_stack - This is the function that prints the top
+ *
+ * @head: This is the head of stack
+ *
+ * @counter: This is the line count
+ *
+ * Return: nothing
+ *
+ */
+
+void f_stack(stack_t **head, unsigned int counter)
+{
+	(void)head;
+	(void)counter;
+	bus.lifi = 0;
+}
