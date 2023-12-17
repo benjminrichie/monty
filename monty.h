@@ -67,7 +67,7 @@ void f_push(stack_t **head, unsigned int counter);
 void f_pall(stack_t **head, unsigned int counter);
 void f_pint(stack_t **head, unsigned int counter);
 int execute(char *content, stack_t **head, unsigned int counter, FILE *file);
-/** void free_stack(stack_t *head);*/
+void free_stack(stack_t *head);
 void f_pop(stack_t **head, unsigned int counter);
 void f_swap(stack_t **head, unsigned int counter);
 void f_add(stack_t **head, unsigned int counter);
@@ -85,6 +85,6 @@ void addqueue(stack_t **head, int n);
 void f_queue(stack_t **head, unsigned int counter);
 void f_stack(stack_t **head, unsigned int counter);
 /** void execute(char *content, stack_t **stack, unsigned int counter, FILE *file);*/
-void free_stack(stack_t *stack);
+/** void free_stack(stack_t *stack);*/
 
 #endif
