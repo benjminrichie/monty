@@ -1,9 +1,11 @@
+#define _POSIX_C_SOURCE 200809L
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stddef.h>
 #include "monty.h"
 
-bus_t bus = {NULL, NULL, NULL, 0}
+bus_t bus = {NULL, NULL, NULL, 0};
 /**
  * main - This monty func code interpreter
  *
@@ -11,7 +13,7 @@ bus_t bus = {NULL, NULL, NULL, 0}
  *
  * @argv: Represents the monty file location
  *
- * Return: 0 (SUCCESS)
+ * Return: 0(SUCCESS)
  */
 
 int main(int argc, char *argv[])
