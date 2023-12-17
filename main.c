@@ -1,18 +1,16 @@
 #include "monty.h"
-#include <stdio.h>
-#define _GNU_SOURCE
-#include <stdlib.h>
 
+bus_t bus = {NULL, NULL, NULL, 0};
 /**
-* main - This is the monty code interpreter
-*
-* @argc: Represents the number of arguments
-*
-* @argv: Represents the monty file location
-*
-* Return: 0(SUCCESS)
-*
-*/
+ * main - This monty func code interpreter
+ *
+ * @argc: Represents the number of arguments
+ *
+ * @argv: Represents the monty file location
+ *
+ * Return: 0 (SUCCESS)
+ *
+ */
 
 int main(int argc, char *argv[])
 {
