@@ -28,12 +28,4 @@ void free_stack(stack_t *head)
  * @counter: This is the line count
  *
  * Return: nothing
- *
  */
-/**
-void f_stack(stack_t **head, unsigned int counter)
-{
-	(void)head;
-	(void)counter;
-	bus.lifi = 0;
-}*/
