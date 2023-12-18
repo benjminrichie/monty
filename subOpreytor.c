@@ -1,14 +1,12 @@
 #include "monty.h"
 
 /**
- * f_sub - This func will subtract
+ * f_sub - Func subtracts the top element of the stack
+ * from the second top element.
+ * @head: Pointer that points to the head of the stack.
+ * @counter: Line number in the Monty bytecode file.
  *
- * @head: This is the stack head
- *
- * @counter: This is the line_number
- *
- * Return: no return
- *
+ * Return: Nothing
  */
 
 void f_sub(stack_t **head, unsigned int counter)
